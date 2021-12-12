@@ -21,7 +21,7 @@ contract xCoinToken {
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
 
-    function DappToken (uint256 _initialSupply) public {
+    function xCoinToken (uint256 _initialSupply) public {
         balanceOf[msg.sender] = _initialSupply;
         totalSupply = _initialSupply;
     }
